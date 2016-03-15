@@ -7,4 +7,8 @@
 ### If you can't get the test to pass or need an answer
 
 * Check out Tag-Answer
-* eg git checkout tags/Step-1-Answer
+* eg git checkout tags/Step-2-Answer
+
+### Note!
+
+* There is no tag for Step-1-Answer as that the answer is making 1 + 1 = 2
