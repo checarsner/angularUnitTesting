@@ -13,7 +13,14 @@ describe('calculator app', function () {
 
   describe('Summing', function() {
     it('Should equal 2 when 1 + 1', function() {
+      var $scope = {};
+      var controller = $controller('CalculatorController', {$scope: $scope});
+      $scope.x = 1;
+      $scope.y = 1;
 
+      $scope.sum();
+
+      expect($scope.z).toBe(2);
     });
   });
 });
