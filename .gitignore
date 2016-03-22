@@ -1,5 +1,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+#node modules are installed by npm. 
+node_modules/
 # User-specific stuff:
 .idea/
 
